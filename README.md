@@ -57,13 +57,6 @@ Main (Node2D) — kořen scény
 | MainMenu.gd | Hlavní menu |
 | game_over.gd | Game Over obrazovka |
 
-## Principy Clean Code
-
-- Decoupling — herní logika (GameManager) oddělená od zobrazení (UI, Map)
-- Malé funkce — každá funkce má jednu zodpovědnost
-- Smysluplná jména — anglické názvy s jasným významem
-- Enum místo magic stringů — Job.Type, Team.Skill
-
 ## Spuštění
 
 1. Nainstaluj Godot 4.7 z godotengine.org
