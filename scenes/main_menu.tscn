@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://dl8g2156bhrhy"]
+
+[ext_resource type="Script" uid="uid://e7dgsr4v7vyg" path="res://scenes/main_menu.gd" id="1_l6cm7"]
+
+[node name="MainMenu" type="Control" unique_id=424222136]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l6cm7")
+
+[node name="title" type="Label" parent="." unique_id=1801310747]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="play_button" type="Button" parent="." unique_id=2137099259]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0

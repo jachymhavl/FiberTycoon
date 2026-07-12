@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cn6i8wqkls5ro"]
+
+[node name="GameOver" type="Control" unique_id=1512168119]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="restart_button" type="Button" parent="." unique_id=1025172426]
+layout_mode = 0
+offset_left = 128.0
+offset_top = 35.0
+offset_right = 626.0
+offset_bottom = 478.0
+
+[node name="title" type="Label" parent="." unique_id=799160081]
+layout_mode = 0
+offset_left = 473.0
+offset_top = 376.0
+offset_right = 513.0
+offset_bottom = 399.0
